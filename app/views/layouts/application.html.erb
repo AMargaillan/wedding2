@@ -12,11 +12,14 @@
   <body>
     <%= yield %>
 
-    <div class="btn-group-vertical">
-      <button type="button" class="btn btn-secondary">Left</button>
-      <button type="button" class="btn btn-secondary">Middle</button>
-      <button type="button" class="btn btn-secondary">Right</button>
-    </div>
+  <nav class="nav flex-column">
+    <a class="nav-link active" href="#">#FinallyChacon</a>
+    <a class="nav-link" href="#">Details</a>
+    <a class="nav-link" href="#">Registry</a>
+    <a class="nav-link" href="#">RSVP</a>
+  </nav>
+
+  <%= image_tag ("main.png"), :class => "main_image" %>
 
   </body>
 </html>
