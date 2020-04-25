@@ -10,16 +10,16 @@
   </head>
 
   <body>
+ 
+    <div class="container">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color: #e4ba1c">#FinallyChacon</a>
+        <a class="navbar-item nav-link" href="#">Details</a>
+        <a class="navbar-item nav-link" href="#">Registry</a>
+        <a class="navbar-item nav-link" href="#">RSVP</a>
+      </nav>
+    </div>
+
     <%= yield %>
-
-  <nav class="nav flex-column">
-    <a class="nav-link active" href="#">#FinallyChacon</a>
-    <a class="nav-link" href="#">Details</a>
-    <a class="nav-link" href="#">Registry</a>
-    <a class="nav-link" href="#">RSVP</a>
-  </nav>
-
-  <%= image_tag ("main.png"), :class => "main_image" %>
-
   </body>
 </html>
