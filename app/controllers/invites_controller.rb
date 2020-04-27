@@ -3,5 +3,6 @@ class InvitesController < ApplicationController
  end
 
  def show
+  @photo = Photo.find(params[:id,:picture])
  end
 end
