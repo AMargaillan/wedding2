@@ -17,3 +17,6 @@ module Wedding2
     # the framework and any gems in your application.
   end
 end
+
+config.assets.initialize_on_precompile = false
+
