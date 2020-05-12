@@ -13,8 +13,10 @@
  
     <div class="container">
       <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="color: #e4ba1c">#FinallyChacon</a>
-        <a class="navbar-item nav-link" href="#">Details</a>
+        <!-- <a class="navbar-brand" href="#" style="color: #e4ba1c">#FinallyChacon</a> -->
+        <%= link_to '#FinallyChacon', root_path, class:'navbar-brand', style: 'color: #e4ba1c' %>
+     <!--    <a class="navbar-item nav-link" href="#">Details</a> -->
+        <%= link_to 'Details',details_path, class:'navbar-item nav-link' %>
         <a class="navbar-item nav-link" href="#">Registry</a>
         <a class="navbar-item nav-link" href="#">RSVP</a>
       </nav>
