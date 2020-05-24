@@ -3,18 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 body {
-  background: image_url('tree_bark.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: image_url('tree_bark.png') center center fixed;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
-  margin-left: 42%;
-  font-size: 100px;
-  margin-bottom: 1px;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #930e0a;
+  font-family: 'Alex Brush', cursive;
+  font-size: 145px;
 }
 
 h2 {
@@ -75,6 +78,26 @@ h7 {
   color: #930e0a;
   font-family: 'Alex Brush', cursive;
   font-size: 40px;
+}
+
+h8 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #930e0a;
+  font-family: 'Alex Brush', cursive;
+  font-size: 80px;
+}
+
+h9 {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #930e0a;
+  font-family: 'Alex Brush', cursive;
+  font-size: 80px;
 }
 
 .main_image {
