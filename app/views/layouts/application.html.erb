@@ -11,16 +11,33 @@
 
   <body>
  
-    <div class="container">
+<!--     <div class="container">
       <nav class="navbar navbar-toggleable-md navbar-light bg-light">
-        <!-- <a class="navbar-brand" href="#" style="color: #e4ba1c">#FinallyChacon</a> -->
+        <a class="navbar-brand" href="#" style="color: #e4ba1c">#FinallyChacon</a>
         <%= link_to '#FinallyChacon', root_path, class:'navbar-brand', style: 'color: #e4ba1c' %>
-     <!--    <a class="navbar-item nav-link" href="#">Details</a> -->
+        <a class="navbar-item nav-link" href="#">Details</a>
         <%= link_to 'Details',details_path, class:'navbar-item nav-link' %>
         <a class="navbar-item nav-link" href="#">Registry</a>
         <a class="navbar-item nav-link" href="#">RSVP</a>
       </nav>
-    </div>
+    </div> -->
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <!-- <a class="nav-link active" href="#">Active</a> -->
+      <%= link_to '#FinallyChacon', root_path, class:'navbar-brand', style: 'color: #e4ba1c' %>
+    </li>
+    <li class="nav-item">
+      <!-- <a class="nav-link" href="#">Link</a> -->
+      <%= link_to 'Details',details_path, class:'navbar-item nav-link' %>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Registry</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">RSVP</a>
+    </li>
+  </ul>
 
     <%= yield %>
 
