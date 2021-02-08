@@ -72,7 +72,7 @@ gem 'jquery-rails'
 
 gem 'prawn'
 
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 
 gem 'figaro'
 
